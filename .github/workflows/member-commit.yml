@@ -1,7 +1,5 @@
 name: commit Stage
 on:
-  push:
-    branches-ignore: [ develop ]
   pull_request:
     branches: [ main, release, develop ]
 
